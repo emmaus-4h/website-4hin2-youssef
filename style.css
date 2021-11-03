@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     background-color: #EEEEEE;  
     
-    color: #303030;
+    color: #020202;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(238, 13, 13);
     text-align: center;
 }
 
@@ -60,7 +60,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #000000;
     overflow: hidden;
 }
 
@@ -77,11 +77,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #bebdbd;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(250, 5, 5);
 }
 
 
