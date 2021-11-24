@@ -3,9 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgba(0, 0, 0, 0.096);  
     
-    color: #000000;
+    color: #0051ff;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -37,8 +37,13 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+    float: right;
+    margin-right: 50px;
+}
+
+img.plaatje2 {
+  float: right;
+  margin-right: 50px;
 }
 
 .smalltext {
@@ -59,9 +64,10 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
+    padding: 1%;
     background-color: #000000;
     overflow: hidden;
+    float: left;
 }
 
 nav ul li {
@@ -77,11 +83,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #bebdbd;
+    background-color: #ff0000;
 }
 
 nav li a.active {
-    background-color: rgb(250, 5, 5);
+    background-color: rgb(250, 0, 0);
 }
 
 
