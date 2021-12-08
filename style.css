@@ -1,4 +1,26 @@
-/* Basislayout */
+/*
+* handige instellingen om problemen te voorkomen
+*/
+
+* {
+  /* zorg dat de border meetelt bij de width en height van boxen */
+  box-sizing: border-box;
+  /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders is het soms 0) */
+  overflow: auto;
+  /* standaard marge 0 */
+  /* margin: 0px;*/
+}
+
+/*
+* handige instellingen om fouten te zoeken
+*/
+
+* {
+  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
+  border: 1px dotted black;
+  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleuren */
+  /* background-color: rgba (0,0,0,5%); */
+}
 
 html, body {
     height: 100%;
@@ -90,6 +112,18 @@ nav li a:hover {
 nav li a.active {
     background-color: rgb(250, 0, 0);
 }
+
+.titel-plaat {
+  border:solid 2px #ff0000
+  width:640px;
+  margin:auto;
+
+}
+
+.kolomlinks {
+  
+}
+
 
 
 
