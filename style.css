@@ -1,3 +1,4 @@
+
 /*
 * handige instellingen om problemen te voorkomen
 */
@@ -25,7 +26,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(37, 32, 32);  
+    background-color: rgb(136, 132, 132);  
     
     color: #ffffff;
     font: Verdana, Arial, Sans-Serif;
@@ -114,16 +115,21 @@ nav li a.active {
 }
 
 .titel-plaat {
-  border:solid 2px #ff0000
+  border:solid 2px #ee0707
   width:640px;
   margin:auto;
 
 }
 
 .kolomlinks {
-  
-}
+  float: left;
+  width: 200px;
 
+}
+.kolomrechts {
+  float: left;
+  width: calc(100% - 200px );
+}
 
 
 
