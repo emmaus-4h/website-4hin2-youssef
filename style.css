@@ -1,4 +1,4 @@
-
+/* basis instellingen */
 /*
 * handige instellingen om problemen te voorkomen
 */
@@ -23,12 +23,23 @@
   /* background-color: rgba (0,0,0,5%); */
 }
 
+
+*{
+  border: 2px solid black;
+  overflow: auto;
+  box-sizing:border-box;
+  margin:0px;
+}
+
+
+
+
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(136, 132, 132);  
+    background-color: rgb(146, 146, 146);  
     
-    color: #ffffff;
+    color: #030303;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -46,7 +57,7 @@ article {
 
 
 header {
-    color: rgb(252, 0, 0);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -59,15 +70,38 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: right;
-    margin-right: 50px;
-}
+
 
 img.plaatje2 {
-  float: right;
+  float: left;
   margin-right: 50px;
 }
+
+.messi {
+  float: left;
+  width: 300px;
+  height: 400px ;
+}
+
+.Nkunku {
+  float: left;
+  width: 300px;
+  height: 450px;
+}
+
+.Ronaldo {
+  float: left;
+  width: 300px;
+  height: 400px;
+}
+
+.Mbappe {
+  float: left;
+width: 300px;
+height: 380px;
+}
+
+
 
 .smalltext {
     font-size: 0.7em;
@@ -122,15 +156,20 @@ nav li a.active {
 }
 
 .kolomlinks {
-  float: left;
-  width: 200px;
+  float: ;
+  width: px;
 
 }
 .kolomrechts {
-  float: left;
+  float:;
   width: calc(100% - 200px );
 }
 
 
-
-
+ body{
+background-image: url("afbeeldingen/goal.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100%;
+}
